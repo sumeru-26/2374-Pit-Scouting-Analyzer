@@ -23,7 +23,6 @@ if st.session_state.camera_on:
         st.image(img_file_buffer)
         process(img_file_buffer)
         decoded = decode()
-        print(decoded)
         st.write(*decoded)
         
     
