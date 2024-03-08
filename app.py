@@ -2,6 +2,7 @@ import streamlit as st
 
 from processing import process
 from decoding import decode
+from save import add
 
 """
 # 2374 Pit Scouting Analyzer
@@ -22,7 +23,8 @@ if st.session_state.camera_on:
     if img_file_buffer:
         st.image(img_file_buffer)
         process(img_file_buffer)
-        decoded = decode()
-        st.write(*decoded)
+        decoded_str = decode()[0]
+        st.write(decoded_str)
+        add(decoded_str, 'backup.csv')
         
     
