@@ -11,3 +11,6 @@ def add(coded_str : str, file_name : str):
 
 def read(file_name : str):
     return pd.read_csv(file_name)
+
+def update(df : pd.DataFrame, file_name : str):
+    df.to_csv(file_name)
