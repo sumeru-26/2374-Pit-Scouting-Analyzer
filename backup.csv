@@ -1,10 +1,2 @@
-Team Number,Drive Train,Intake Type,Indexing Type,# of Notes in Auto,Notes about Auto,Endgame,Alliance Criteria
-,,,,,,,
-,undefined,undefined,undefined,,,undefined,
-,undefined,undefined,undefined,,,undefined,
-,undefined,undefined,undefined,,,undefined,
-,undefined,undefined,undefined,,,undefined,
-,undefined,undefined,undefined,,,trap,
-,undefined,undefined,undefined,,,trap,
-,undefined,undefined,undefined,,,climb,
-2374,undefined,undefined,undefined,,,climb,
+Drive Train,Intake,Shooter,Climber,Team Number,Auto Notes #,Notes About Auto,What They Want On Alliance,Other Notes
+1,1,3,3,2374,4,very consistent on both sides,a fast speaker bot,"single arm mechanism, fast amp cycles, auto shooting"
