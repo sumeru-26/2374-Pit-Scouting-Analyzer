@@ -3,7 +3,7 @@ from camera_input_live import camera_input_live
 
 from processing import process
 from decoding import decode
-from file import add,read,update
+from file import add,read
 
 """
 # 2374 Pit Scouting Analyzer
@@ -42,4 +42,4 @@ new_data = st.dataframe(data.astype('category'),
                           use_container_width=True,hide_index=True)
 
 man_entry = st.text_input("Manual Entry")
-st.button("Add",on_click=add(man_entry),use_container_width=True)
+st.button("Add",on_click=add,args=(man_entry,'backup.csv'),use_container_width=True)
