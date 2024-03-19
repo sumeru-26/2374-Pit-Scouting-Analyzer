@@ -41,3 +41,5 @@ if team_query and team_query.isdigit():
 new_data = st.dataframe(data.astype('category'),
                           use_container_width=True,hide_index=True)
 
+man_entry = st.text_input("Manual Entry")
+st.button("Add",on_click=add(man_entry),use_container_width=True)
