@@ -6,23 +6,27 @@ ordered_fields = ['Team Number', 'Drive Train', 'Intake', 'Shooter', 'Climber', 
 
 filters = {
     'drivetrain' : {
+        0 : 'n/a',
         1 : 'swerve',
         2 : 'tank',
         3 : 'mecanum',
         4 : 'other'
     },
     'intake' : {
+        0 : 'n/a',
         1 : 'otb',
         2 : 'utb',
         3 : 'both' 
     },
     'shooting' : {
+        0 : 'n/a',
         1 : 'amp',
         2 : 'speaker',
         3 : 'both',
         4 : 'none'
     },
     'climb' : {
+        0 : 'n/a',
         1 : 'trap',
         2 : 'climb',
         3 : 'none'
